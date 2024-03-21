@@ -16,5 +16,4 @@ public class Dowhile {
 		System.out.println("i변수의 값은?" + i);
 
 	}
-
 }
