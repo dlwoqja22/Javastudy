@@ -21,8 +21,8 @@ class Student /* extends Object */ {
 	public int hashCode() {
 		System.out.println("hashCode");
 		// 주소값
-		return super.hashCode();
-//		return studentId;
+//		return super.hashCode();
+		return studentId;
 	}
 
 	// st1.equals(st3)
@@ -47,7 +47,7 @@ public class EqualsTest {
 	
 	public static void main(String[] args) {
 		
-		Student st1 = new Student(100, "손흥민");
+		Student st1 = new Student(7, "손흥민");
 		Student st2 = st1; // 객체의 주소대입
 		
 		Student st3 = new Student(7, "손흥민");
